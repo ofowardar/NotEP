@@ -2,7 +2,7 @@ from fastapi import APIRouter,Depends,HTTPException,status
 from sqlalchemy.orm import Session
 from app.database import get_db
 from app.models import Note
-from app.schemas import NoteCreate,NoteResponse
+from app.schemas import NoteCreate,NoteResponse,PaginatedNotes
 
 router = APIRouter(prefix="/notes", tags=["notes"])
 
@@ -14,7 +14,7 @@ def create_note(note: NoteCreate, db: Session =Depends(get_db)):
     db.refresh(db_note)
     return db_note
 
-@router.get("", response_model=list[NoteResponse])
+@router.get("", response_model=PaginatedNotes)
 def list_notes(skip:int = 0, limit:int = 10, search:str = None, db: Session = Depends(get_db)):
     query = db.query(Note)
     #Search Filter
@@ -27,7 +27,7 @@ def list_notes(skip:int = 0, limit:int = 10, search:str = None, db: Session = De
     #Pagging
     notes = query.offset(skip).limit(limit).all()
 
-    return notes
+    return {"total":total,"skip":skip,"limit":limit,"items":notes}
 
 
 
