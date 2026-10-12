@@ -1,7 +1,19 @@
 from passlib.context import CryptContext
 from datetime import datetime, timedelta, timezone
 from jose import JWTError,jwt
-from fastapi import HTTPException,status
+from fastapi import HTTPException,status,Depends
+from fastapi.security import HTTPBearer,HTTPAuthorizationCredentials
+
+
+security = HTTPBearer()
+
+def get_current_user(credentials:HTTPAuthorizationCredentials = Depends(security)) -> dict:
+    """
+    Tokendan user_id çıkar ve döndür.
+    """
+    token = credentials.credentials
+    user_data = decode_token(token=token)
+    return user_data
 
 # Hash the password
 pwd_context = CryptContext(schemes=["bcrypt"],deprecated ="auto")
