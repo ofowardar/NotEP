@@ -14,6 +14,23 @@ def create_note(note: NoteCreate, db: Session =Depends(get_db)):
     db.refresh(db_note)
     return db_note
 
+@router.get("", response_model=list[NoteResponse])
+def list_notes(skip:int = 0, limit:int = 10, search:str = None, db: Session = Depends(get_db)):
+    query = db.query(Note)
+    #Search Filter
+    if search:
+        query = query.filter(Note.title.ilike(f"%{search}%"))
+
+    #Toplam sayısı
+    total = query.count()
+
+    #Pagging
+    notes = query.offset(skip).limit(limit).all()
+
+    return notes
+
+
+
 @router.get("/{note_id}",response_model=NoteResponse)
 def get_note(note_id: int, db: Session = Depends(get_db)):
     note = db.query(Note).filter(Note.id == note_id).first()
