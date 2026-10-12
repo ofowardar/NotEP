@@ -4,3 +4,187 @@
 2026-10-12 12:27:19,696 - notep_api - INFO - User logged in successfully: asd (ID: 2)
 2026-10-12 12:27:44,823 - notep_api - INFO - User 2 creating note: asd
 2026-10-12 12:27:44,831 - notep_api - INFO - Note created successfully: ID 2 for user 2
+2026-10-12 12:41:08,061 - notep_api - INFO - Application Starting...
+2026-10-12 12:41:08,065 - notep_api - INFO - Application started successfully
+2026-10-12 12:41:27,146 - notep_api - INFO - Application Starting...
+2026-10-12 12:41:27,146 - notep_api - INFO - Application started successfully
+2026-10-12 12:42:05,091 - notep_api - INFO - Application Starting...
+2026-10-12 12:42:05,100 - notep_api - INFO - Application started successfully
+2026-10-12 12:42:05,117 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:42:05,164 - notep_api - INFO - User registered successfully: test@example.com (ID: 3)
+2026-10-12 12:42:05,178 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:42:05,178 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:42:05,181 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:42:05,181 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:42:05,186 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:42:05,186 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:42:05,192 - notep_api - INFO - Login attempt for email: test@example.com
+2026-10-12 12:42:05,251 - notep_api - INFO - User logged in successfully: test@example.com (ID: 3)
+2026-10-12 12:42:05,258 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:42:05,258 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:42:05,262 - notep_api - INFO - Login attempt for email: test@example.com
+2026-10-12 12:42:05,304 - notep_api - WARNING - Login failed: Invalid credentials for email - test@example.com
+2026-10-12 12:42:05,310 - notep_api - INFO - Login attempt for email: nonexistent@example.com
+2026-10-12 12:42:05,310 - notep_api - WARNING - Login failed: Invalid credentials for email - nonexistent@example.com
+2026-10-12 12:42:23,005 - notep_api - INFO - Application Starting...
+2026-10-12 12:42:23,006 - notep_api - INFO - Application started successfully
+2026-10-12 12:42:23,022 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:42:23,023 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:42:23,111 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:42:23,111 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:42:23,111 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:42:23,111 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:42:23,124 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:42:23,124 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:42:23,127 - notep_api - INFO - Login attempt for email: test@example.com
+2026-10-12 12:42:23,171 - notep_api - INFO - User logged in successfully: test@example.com (ID: 3)
+2026-10-12 12:42:23,171 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:42:23,171 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:42:23,183 - notep_api - INFO - Login attempt for email: test@example.com
+2026-10-12 12:42:23,214 - notep_api - WARNING - Login failed: Invalid credentials for email - test@example.com
+2026-10-12 12:42:23,224 - notep_api - INFO - Login attempt for email: nonexistent@example.com
+2026-10-12 12:42:23,224 - notep_api - WARNING - Login failed: Invalid credentials for email - nonexistent@example.com
+2026-10-12 12:42:23,231 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:42:23,231 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:42:23,234 - notep_api - INFO - Login attempt for email: test@example.com
+2026-10-12 12:42:23,271 - notep_api - INFO - User logged in successfully: test@example.com (ID: 3)
+2026-10-12 12:42:23,281 - notep_api - INFO - User 3 creating note: Test
+2026-10-12 12:42:23,286 - notep_api - INFO - Note created successfully: ID 3 for user 3
+2026-10-12 12:42:23,301 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:42:23,301 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:42:23,305 - notep_api - INFO - Login attempt for email: test@example.com
+2026-10-12 12:42:23,344 - notep_api - INFO - User logged in successfully: test@example.com (ID: 3)
+2026-10-12 12:42:23,346 - notep_api - INFO - User 3 creating note: Note 1
+2026-10-12 12:42:23,351 - notep_api - INFO - Note created successfully: ID 4 for user 3
+2026-10-12 12:42:23,351 - notep_api - INFO - User 3 creating note: Note 2
+2026-10-12 12:42:23,351 - notep_api - INFO - Note created successfully: ID 5 for user 3
+2026-10-12 12:42:23,361 - notep_api - INFO - User 3 listing notes: skip=0, limit=10, search=None
+2026-10-12 12:42:23,367 - notep_api - INFO - Retrieved 3 notes for user 3
+2026-10-12 12:42:23,374 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:42:23,374 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:42:23,378 - notep_api - INFO - Login attempt for email: test@example.com
+2026-10-12 12:42:23,415 - notep_api - INFO - User logged in successfully: test@example.com (ID: 3)
+2026-10-12 12:42:23,419 - notep_api - INFO - User 3 creating note: Test
+2026-10-12 12:42:23,422 - notep_api - INFO - Note created successfully: ID 6 for user 3
+2026-10-12 12:42:23,424 - notep_api - INFO - User 3 fetching note: 6
+2026-10-12 12:42:23,424 - notep_api - INFO - Note 6 fetched successfully for user 3
+2026-10-12 12:42:23,431 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:42:23,431 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:42:23,431 - notep_api - INFO - Login attempt for email: test@example.com
+2026-10-12 12:42:23,471 - notep_api - INFO - User logged in successfully: test@example.com (ID: 3)
+2026-10-12 12:42:23,479 - notep_api - INFO - User 3 creating note: Test
+2026-10-12 12:42:23,481 - notep_api - INFO - Note created successfully: ID 7 for user 3
+2026-10-12 12:42:23,486 - notep_api - INFO - User 3 deleting note: 7
+2026-10-12 12:42:23,486 - notep_api - INFO - Note 7 deleted successfully for user 3
+2026-10-12 12:42:23,492 - notep_api - INFO - User 3 fetching note: 7
+2026-10-12 12:42:23,492 - notep_api - WARNING - Note 7 not found or unauthorized for user 3
+2026-10-12 12:42:36,185 - notep_api - INFO - Application Starting...
+2026-10-12 12:42:36,185 - notep_api - INFO - Application started successfully
+2026-10-12 12:42:57,803 - notep_api - INFO - Application Starting...
+2026-10-12 12:42:57,803 - notep_api - INFO - Application started successfully
+2026-10-12 12:43:14,987 - notep_api - INFO - Application Starting...
+2026-10-12 12:43:14,987 - notep_api - INFO - Application started successfully
+2026-10-12 12:43:30,709 - notep_api - INFO - Application Starting...
+2026-10-12 12:43:30,709 - notep_api - INFO - Application started successfully
+2026-10-12 12:43:30,726 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:43:30,726 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:43:30,823 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:43:30,823 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:43:30,824 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:43:30,824 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:43:30,832 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:43:30,832 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:43:30,836 - notep_api - INFO - Login attempt for email: test@example.com
+2026-10-12 12:43:30,882 - notep_api - INFO - User logged in successfully: test@example.com (ID: 3)
+2026-10-12 12:43:30,886 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:43:30,886 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:43:30,892 - notep_api - INFO - Login attempt for email: test@example.com
+2026-10-12 12:43:30,935 - notep_api - WARNING - Login failed: Invalid credentials for email - test@example.com
+2026-10-12 12:43:30,935 - notep_api - INFO - Login attempt for email: nonexistent@example.com
+2026-10-12 12:43:30,935 - notep_api - WARNING - Login failed: Invalid credentials for email - nonexistent@example.com
+2026-10-12 12:43:30,942 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:43:30,942 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:43:30,948 - notep_api - INFO - Login attempt for email: test@example.com
+2026-10-12 12:43:30,989 - notep_api - INFO - User logged in successfully: test@example.com (ID: 3)
+2026-10-12 12:43:30,997 - notep_api - INFO - User 3 creating note: Test
+2026-10-12 12:43:31,005 - notep_api - INFO - Note created successfully: ID 7 for user 3
+2026-10-12 12:43:31,021 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:43:31,021 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:43:31,024 - notep_api - INFO - Login attempt for email: test@example.com
+2026-10-12 12:43:31,066 - notep_api - INFO - User logged in successfully: test@example.com (ID: 3)
+2026-10-12 12:43:31,066 - notep_api - INFO - User 3 creating note: Note 1
+2026-10-12 12:43:31,073 - notep_api - INFO - Note created successfully: ID 8 for user 3
+2026-10-12 12:43:31,078 - notep_api - INFO - User 3 creating note: Note 2
+2026-10-12 12:43:31,081 - notep_api - INFO - Note created successfully: ID 9 for user 3
+2026-10-12 12:43:31,086 - notep_api - INFO - User 3 listing notes: skip=0, limit=10, search=None
+2026-10-12 12:43:31,086 - notep_api - INFO - Retrieved 7 notes for user 3
+2026-10-12 12:43:31,094 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:43:31,094 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:43:31,100 - notep_api - INFO - Login attempt for email: test@example.com
+2026-10-12 12:43:31,137 - notep_api - INFO - User logged in successfully: test@example.com (ID: 3)
+2026-10-12 12:43:31,142 - notep_api - INFO - User 3 creating note: Test
+2026-10-12 12:43:31,143 - notep_api - INFO - Note created successfully: ID 10 for user 3
+2026-10-12 12:43:31,151 - notep_api - INFO - User 3 fetching note: 10
+2026-10-12 12:43:31,151 - notep_api - INFO - Note 10 fetched successfully for user 3
+2026-10-12 12:43:31,157 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:43:31,157 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:43:31,161 - notep_api - INFO - Login attempt for email: test@example.com
+2026-10-12 12:43:31,201 - notep_api - INFO - User logged in successfully: test@example.com (ID: 3)
+2026-10-12 12:43:31,205 - notep_api - INFO - User 3 creating note: Test
+2026-10-12 12:43:31,206 - notep_api - INFO - Note created successfully: ID 11 for user 3
+2026-10-12 12:43:31,213 - notep_api - INFO - User 3 deleting note: 11
+2026-10-12 12:43:31,213 - notep_api - INFO - Note 11 deleted successfully for user 3
+2026-10-12 12:43:31,222 - notep_api - INFO - User 3 fetching note: 11
+2026-10-12 12:43:31,223 - notep_api - WARNING - Note 11 not found or unauthorized for user 3
+2026-10-12 12:44:29,473 - notep_api - INFO - Application Starting...
+2026-10-12 12:44:29,476 - notep_api - INFO - Application started successfully
+2026-10-12 12:44:29,514 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:44:29,563 - notep_api - INFO - User registered successfully: test@example.com (ID: 1)
+2026-10-12 12:44:29,598 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:44:29,661 - notep_api - INFO - User registered successfully: test@example.com (ID: 1)
+2026-10-12 12:44:29,668 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:44:29,668 - notep_api - WARNING - Register failed: Email already exists - test@example.com
+2026-10-12 12:44:29,695 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:44:29,751 - notep_api - INFO - User registered successfully: test@example.com (ID: 1)
+2026-10-12 12:44:29,758 - notep_api - INFO - Login attempt for email: test@example.com
+2026-10-12 12:44:29,819 - notep_api - INFO - User logged in successfully: test@example.com (ID: 1)
+2026-10-12 12:44:29,842 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:44:29,892 - notep_api - INFO - User registered successfully: test@example.com (ID: 1)
+2026-10-12 12:44:29,897 - notep_api - INFO - Login attempt for email: test@example.com
+2026-10-12 12:44:29,945 - notep_api - WARNING - Login failed: Invalid credentials for email - test@example.com
+2026-10-12 12:44:29,966 - notep_api - INFO - Login attempt for email: nonexistent@example.com
+2026-10-12 12:44:29,966 - notep_api - WARNING - Login failed: Invalid credentials for email - nonexistent@example.com
+2026-10-12 12:44:29,987 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:44:30,040 - notep_api - INFO - User registered successfully: test@example.com (ID: 1)
+2026-10-12 12:44:30,041 - notep_api - INFO - Login attempt for email: test@example.com
+2026-10-12 12:44:30,091 - notep_api - INFO - User logged in successfully: test@example.com (ID: 1)
+2026-10-12 12:44:30,101 - notep_api - INFO - User 1 creating note: Test
+2026-10-12 12:44:30,106 - notep_api - INFO - Note created successfully: ID 1 for user 1
+2026-10-12 12:44:30,153 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:44:30,213 - notep_api - INFO - User registered successfully: test@example.com (ID: 1)
+2026-10-12 12:44:30,218 - notep_api - INFO - Login attempt for email: test@example.com
+2026-10-12 12:44:30,272 - notep_api - INFO - User logged in successfully: test@example.com (ID: 1)
+2026-10-12 12:44:30,273 - notep_api - INFO - User 1 creating note: Note 1
+2026-10-12 12:44:30,282 - notep_api - INFO - Note created successfully: ID 1 for user 1
+2026-10-12 12:44:30,287 - notep_api - INFO - User 1 creating note: Note 2
+2026-10-12 12:44:30,293 - notep_api - INFO - Note created successfully: ID 2 for user 1
+2026-10-12 12:44:30,301 - notep_api - INFO - User 1 listing notes: skip=0, limit=10, search=None
+2026-10-12 12:44:30,306 - notep_api - INFO - Retrieved 2 notes for user 1
+2026-10-12 12:44:30,344 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:44:30,401 - notep_api - INFO - User registered successfully: test@example.com (ID: 1)
+2026-10-12 12:44:30,410 - notep_api - INFO - Login attempt for email: test@example.com
+2026-10-12 12:44:30,455 - notep_api - INFO - User logged in successfully: test@example.com (ID: 1)
+2026-10-12 12:44:30,457 - notep_api - INFO - User 1 creating note: Test
+2026-10-12 12:44:30,461 - notep_api - INFO - Note created successfully: ID 1 for user 1
+2026-10-12 12:44:30,461 - notep_api - INFO - User 1 fetching note: 1
+2026-10-12 12:44:30,461 - notep_api - INFO - Note 1 fetched successfully for user 1
+2026-10-12 12:44:30,511 - notep_api - INFO - Register attempt for email: test@example.com
+2026-10-12 12:44:30,561 - notep_api - INFO - User registered successfully: test@example.com (ID: 1)
+2026-10-12 12:44:30,567 - notep_api - INFO - Login attempt for email: test@example.com
+2026-10-12 12:44:30,616 - notep_api - INFO - User logged in successfully: test@example.com (ID: 1)
+2026-10-12 12:44:30,621 - notep_api - INFO - User 1 creating note: Test
+2026-10-12 12:44:30,625 - notep_api - INFO - Note created successfully: ID 1 for user 1
+2026-10-12 12:44:30,633 - notep_api - INFO - User 1 deleting note: 1
+2026-10-12 12:44:30,637 - notep_api - INFO - Note 1 deleted successfully for user 1
+2026-10-12 12:44:30,641 - notep_api - INFO - User 1 fetching note: 1
+2026-10-12 12:44:30,641 - notep_api - WARNING - Note 1 not found or unauthorized for user 1
