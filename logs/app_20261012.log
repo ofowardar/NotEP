@@ -1,0 +1,6 @@
+2026-10-12 12:27:05,074 - notep_api - INFO - Application Starting...
+2026-10-12 12:27:05,074 - notep_api - INFO - Application started successfully
+2026-10-12 12:27:19,641 - notep_api - INFO - Login attempt for email: asd
+2026-10-12 12:27:19,696 - notep_api - INFO - User logged in successfully: asd (ID: 2)
+2026-10-12 12:27:44,823 - notep_api - INFO - User 2 creating note: asd
+2026-10-12 12:27:44,831 - notep_api - INFO - Note created successfully: ID 2 for user 2

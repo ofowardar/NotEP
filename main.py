@@ -3,8 +3,12 @@ from app.database import engine, Base
 from app import models  # ← BU SATIRI EKLE
 from app.routers import notes, auth
 from fastapi.middleware.cors import CORSMiddleware
+from app.logging_config import logger
 # Tabloları oluştur
 Base.metadata.create_all(bind=engine)
+
+
+logger.info("Application Starting...")
 
 app = FastAPI(title="Notes API", version="1.0")
 
@@ -22,6 +26,9 @@ app.add_middleware(
 # Router'ları kayıt et
 app.include_router(auth.router)
 app.include_router(notes.router)
+
+
+logger.info("Application started successfully")
 
 
 @app.get("/")
