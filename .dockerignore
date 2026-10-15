@@ -1,0 +1,9 @@
+.git
+.gitignore
+__pycache__
+*.pyc
+notes.db
+logs/
+venv/
+.pytest_cache
+tests/
