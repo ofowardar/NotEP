@@ -30,7 +30,7 @@ NotEP is a production-ready notes application that demonstrates:
 ## 📸 Screenshots
 
 ### Login Screen
-![Login Page](pics\login_page.png)
+![Login Page](pics/login_page.png)
 *Screenshot 1: Register/Login interface with dark modern design*
 
 **How to add this screenshot:**
@@ -41,7 +41,7 @@ NotEP is a production-ready notes application that demonstrates:
 ---
 
 ### Dashboard
-![Dashboard](pics\notes_dashboard.png)
+![Dashboard](pics/notes_dashboard.png)
 *Screenshot 2: Notes dashboard showing create, edit, and delete functionality*
 
 **How to add this screenshot:**
@@ -52,7 +52,7 @@ NotEP is a production-ready notes application that demonstrates:
 ---
 
 ### API Documentation
-![Swagger UI](pics\swagger_ui.png)
+![Swagger UI](pics/swagger_ui.png)
 *Screenshot 3: Interactive Swagger API documentation*
 
 ---
